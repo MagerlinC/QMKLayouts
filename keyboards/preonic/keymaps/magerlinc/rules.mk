@@ -1,0 +1,3 @@
+SRC += muse.c
+RGBLIGHT_ENABLE = yes
+UNICODE_ENABLE = yes
