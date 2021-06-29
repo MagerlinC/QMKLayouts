@@ -295,19 +295,19 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
           break;
         case DK_AE:
           if (record->event.pressed) {
-            //SEND_ALT_CODE("0230", "0198");
-            SEND_ALT_CODE("0248", "0216");
+            SEND_ALT_CODE("0230", "0198");
+            //SEND_ALT_CODE("0248", "0216"); SENDS ø
           }
           break;
         case DK_OE:
          if (record->event.pressed) {
-            //SEND_ALT_CODE("0230", "0198");
             SEND_ALT_CODE("0248", "0216");
           }
           break;
         case DK_AA:
           if (record->event.pressed) {
             SEND_ALT_CODE("0229", "0197");
+            //SEND_ALT_CODE("0248", "0216"); SENDS ø
           }
           break;
         case MY_TICK:
